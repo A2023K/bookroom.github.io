@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ke Guo page</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script src="./date_calculat.js"></script>
+</head>
+<body>
+    <div class="load-start load-style">
+        <div class="load-title">Accommodation in New Zealand</div>
+        <span id="start-btn" class="btn-start">Start</span>
+    </div>
+    <div class="start-view  no-display">
+        <div class="start-title">Accommodation in New Zealand</div>
+        <div class="tell-little">Tell us a little about your trip</div>
+        <div class="search-box">
+            <div>
+               <div class="member-icon">
+                <img src="./member-icon.jpg" alt="" height="20px">
+               </div>
+               <div class="member-title"><h3>Member of people traveling:</h3></div>
+               <div class="input-member">
+                <input type="number" min="1" max="6"id="person-amount-input" value="1">
+               </div>
+            </div>
+            <div>
+              <div class="date-icon">
+                <img src="./date-icon.jpg" alt="" height="20px">
+              </div>
+              <div class="date-title">
+                <h3>Dates of travel:</h3>
+              </div>
+              <div class="date-input">
+                check in date:<input type="date" id="date1"><br><br>
+                check out date:<input type="date" id="date2">
+              </div>
+              <div class="search-btn" id="btn-check">
+                Search
+              </div>
+            </div>
+        </div>
+        <div class="search-btn-view  no-display">
+            <!-- option-box -->
+            <div class="option-box option-box-style">
+               <div><span>Options : </span>&nbsp;&nbsp;<img src="./member-icon.jpg" alt="" height="20px">
+                     &nbsp;<span id="get-person-input"></span>
+               </div>
+               <div><img src="./date-icon.jpg" alt="" height="20px">
+                    <span id="input-days"></span></div>
+              </div>
+            <!--  acco-cards -->
+            <div class="acco-cards">
+                  <div class="acco-card" id="hotel">
+                    <div class="img-div">
+                        <img src="./accoPIC/immg1.jpg" alt="">
+                    </div>
+                    <div class="card-infor">
+                        <P class="name">Red Lake Hotel</P>
+                        <h5>price: $<span class="price">157</span>;</h5>
+                        <h5>person:<span class="number-person">1-2</span>;</h5>
+                        <h5>min-max days:<span class="booking-days">1-5</span></h5>
+                        <h5>Free brekfast</h5>
+                        <div class="booking-btn" id="btn-1">Booking</div>
+                    </div>
+                </div>
+                  
+                <div class="acco-card" id="hostel">
+                    <div class="img-div">
+                        <img src="./accoPIC/hostel-1.jpg" alt="">
+                    </div>
+                    <div class="card-infor">
+                        <P class="name">Blue Lake Hostel</P>
+                        <h5>price: $<span class="price">30</span>;</h5>
+                        <h5>person:<span class="number-person">1</span>;</h5>
+                        <h5>min-max days:<span class="booking-days">1-10</span></h5>
+                        <h5>Free brekfast</h5>
+                        <div class="booking-btn" id="btn-3">Booking</div>
+                    </div>
+                </div>
+                
+                <div class="acco-card" id="motel">
+                    <div class="img-div">
+                        <img src="./accoPIC/house4.jpg" alt="">
+                    </div>
+                    <div class="card-infor">
+                        <P class="name">Yellow Lake Motel</P>
+                        <h5>price: $<span class="price">90</span>;</h5>
+                        <h5>person:<span class="number-person">2-4</span>;</h5>
+                        <h5>min-max days:<span class="booking-days">3-10</span></h5>
+                        <h5>Free brekfast</h5>
+                        <div class="booking-btn" id="btn-3">Booking</div>
+                    </div>
+                </div>
+                
+                <div class="acco-card" id="house">
+                    <div class="img-div">
+                        <img src="./accoPIC/house1.jpg" alt="">
+                    </div>
+                    <div class="card-infor">
+                        <p class="name">Pink House</p>
+                        <h5>price: $<span class="price">240</span>;</h5>
+                        <h5>person:<span class="number-person">1-4</span>;</h5>
+                        <h5>min-max days:<span class="booking-days">2-15</span></h5>
+                        <h5>Free brekfast</h5>
+                        <div class="booking-btn" id="btn-4">Booking</div>
+                    </div>
+                </div>
+            </div>
+            <div class="result" id="result-card">
+                <h5 class="result-box">Min-max-availble-for-persons's search limit: 1-4;</h5>
+                <h5 class="result-box">Min-max-availble-for-days's search limit: 1-15;</h5>
+                    <a href="" style="color:red;">Refresh</a> 
+            </div>
+       </div> 
+       <div class="booking-box-1 no-display">
+        <div class="close-btn">x</div>
+        <div class="booking-box-1-details">
+        <p>Thank you for you booking.</p>
+        <p>your booked details</details> : <span class="acco-name" style="color:blue;"></span> </p>
+        <p><span>for total member:</span>&nbsp;<span id="get-person-input-1" style="color:red;"></span>;
+           <span>Total days:</span>&nbsp;<span id="input-days-1" style="color:red ;"></span>days;</p>
+        <p>Total amount: $<span class="get-total-1" style="color:red;"></span></p>
+        <div class="view-meal-btn"><a href="./indexmeal.html" style="color:white ;">Free breakfast</a></div>
+        </div>
+    </div>
+        
+    </div>
+    <div class="footer">@copyright by Dimoni's</div>
+  <script src="./scip.js"></script>
+</body>
+</html>

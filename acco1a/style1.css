@@ -1,0 +1,346 @@
+.body{
+    margin: 0px;
+}
+.load-style{
+    background-image: url(./back2.jpeg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+.load-style .load-title{
+    height:14vh; 
+   width: 36vh;
+   background-color:rgba(2, 2, 194, 0.161);
+    padding: 15px 10px 10px 25px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    border-radius: 8px;
+    justify-items: center;
+}
+.start-view{
+    background-image: url(./back2.jpeg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.start-view .start-title{
+    background-color: rgba(2, 2, 194, 0.12);
+    padding:15px;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+    max-height: 6vh;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+.start-view .tell-little{
+    background-color:rgba(2, 2, 194, 0.12);
+    color: white;
+    padding: 10px;
+    margin:28px auto;
+    font-size: small;
+    font-weight: 400;
+    border-radius: 15px;
+}
+.search-box{
+    background-color: rgba(255, 255, 255, 0.73);
+    padding: 10px;
+    margin: 60px auto;
+    width: fit-content;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+}
+.search-btn{
+    padding: 10px;
+    background-color: yellow;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 12px;
+    margin: 20px auto; 
+    width: fit-content;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.btn-start{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn-start:hover{
+    background-color: green;
+    color: white;
+}
+.no-display{
+    display: none !important
+}
+.acco-cards{
+    margin: 10px auto;
+}
+.option-box{
+    color:black;
+    margin:5px 25px 0px 25px;
+    display: flex;
+    justify-content:space-evenly;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.182);
+    background-color: rgba(255, 255, 255, 0.571);
+    padding: 3px;
+}
+.search-btn-view{
+    background-color: rgba(255, 255, 255, 0.52);
+    margin: 25px auto;
+    width: fit-content;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+}
+.acco-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 15px auto;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.309);
+    background-color: white;
+}
+.acco-card:hover{
+    border: 1.5px solid red;
+}
+.name{
+    font-weight: bold;
+}
+.search-btn-view .img-div{
+    max-height: 138px;
+    overflow: hidden;
+}
+.search-btn-view .card-infor{
+    padding: 10px;
+    margin: 5px auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3px;
+    align-content: center;
+}
+.search-btn-view .booking-btn{
+    background-color: gold;
+    border-radius: 8px;
+    margin: 3px 0px 0px 0px;
+    cursor: pointer;
+}
+.search-btn-view .booking-btn:hover{
+    background-color: blue;
+    color: white;
+
+}
+h3, h5 , a, p{
+    margin:0px;
+}
+.result{
+    color: blue;
+    font-size: small;
+    padding: 10px;
+    background-color: yellow;
+    margin: 1px auto;
+    width: fit-content;
+    border-radius: 12px;
+}
+.meal-section{
+    background-image: url(./back2.jpeg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+.option-in-meal-page{
+    display: flex;
+    justify-content:space-evenly;
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(73, 155, 183, 0.401);
+    font-size: small;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.option-in-meal-page div{
+    padding: 5px;
+}
+.option-in-meal-page .total-box{
+    padding: 12px 0px 0px 0px;
+}
+.meal-title{
+    background-color:rgba(2, 2, 194, 0.12);
+    color: white;
+    font-size: x-large;
+    font-weight:bolder;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+ .meal-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    gap: 10px;
+ }
+.meal-pic{
+    max-height: 135px;
+    overflow: hidden;
+}
+.meal-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.meal-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin:5px auto;
+    padding: 12px 25px 12px 25px;
+    width: fit-content;
+}
+.meal-card{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.500);
+    min-height: 34vh;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2px;
+    text-align: center;
+    background-color: white;
+}
+.meal-card:hover{
+    background-color: yellow;
+}
+.meal-section .fresh-link{
+   padding: 5px;
+   background-color:yellow;
+   margin: 1px auto;
+   width: fit-content;
+   border-radius: 15px;
+}
+.meal-section .fresh-link:hover{
+    background-color:lightblue
+    
+}
+.meal-section a{
+    color:blue;
+    font-weight: bold;
+    font-size: small;
+}
+.confirm-meal-btn-erea{
+   display:flex;
+   justify-content: space-evenly;
+   font-size: small;
+   background-color: rgba(255, 255, 255, 0.241);
+}
+.btn-m{
+    background-color: white;
+    padding: 5px;
+    margin: 5px auto;
+    width: fit-content;
+    border-radius: 8px;
+    color: blue;
+    font-weight:bold ;
+}
+.free-bre{
+    padding: 5px;
+    margin: 5px auto;
+    color: blue;
+}
+.footer{
+    background-color:rgb(15, 40, 15) ;
+    color: white;
+    text-align: center;
+    font-size: xx-small;
+    padding: 22px;
+}
+.booking-box-1{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.95);
+    border: 2px dotted blue;
+    position: fixed;
+    margin: 15px auto;
+    padding: 5px 15px 5px 5px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    left: 23.5vw;
+    top: 8vh;
+    width: 50vw;
+    cursor: pointer;
+}
+.booking-box-1:hover{
+    border: 2px dotted red;
+}
+.booking-box-1-details{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+}
+.close-btn{
+    text-align: right;
+    color: blue;
+}
+.view-meal-btn{
+    padding: 15px;
+    background-color: blue;
+    margin: 20px auto;
+    width: fit-content;
+    color: white;
+    border-radius: 15px;
+    font-weight: 900;
+}
+.view-meal-btn:hover{
+    background-color:rgb(193, 140, 4)
+}
+.yellow-light{
+    background-color: yellow;
+}
+.meal-amount{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.792);
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 8px 0px 0px 0px;
+}
+/* #bre-confirm-display{
+    position: fixed;
+    top: 17%; bottom: 25%; left: 20%;right: 20%;
+    background-color: white;
+    z-index: 9;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3px;
+    border-radius: 15px;
+    border: 3px dotted blue;
+    padding: 25px;
+}
+#bre-confirm-background{
+    position: fixed;
+    top: 0; bottom: 0;left: 0;right: 0;
+    background-color: rgba(0, 0, 0, 0.07);
+} */
+
